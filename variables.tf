@@ -4,7 +4,7 @@ variable "region" {
 }
 variable "project" {
   description = "GCP project name"
-  default     = "My Project 63451"
+  default     = "red-minutia-275210"
 }
 variable "zone" {
   description = "GCP zone name"
