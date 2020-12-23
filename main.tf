@@ -1,6 +1,6 @@
 // GCP provider
 provider "google" {
-  credentials = file("./gcp_credential.json")
+  //credentials = file("./gcp_credential.json")
   project     = var.project
   region      = var.region
 }
