@@ -2,10 +2,10 @@ variable "region" {
   description = "GCP region name"
   default     = "asia-northeast1"
 }
-variable "project" {
-  description = "GCP project name"
-  default     = "red-minutia-275210"
-}
+//variable "project" {
+//  description = "GCP project name"
+//  default     = "red-minutia-275210"
+//}
 variable "zone" {
   description = "GCP zone name"
   default     = "asia-northeast1-c"
